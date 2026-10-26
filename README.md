@@ -2,7 +2,7 @@
 
 A smart trip expense manager to track shared expenses, split bills among selected members, and see who owes whom, all in one place.
 
-**Live Demo:** https://shahilprajapati932918.github.io/TripSplit/
+**Live Demo:** https://shahil-prajapati.github.io/TripSplit/
 
 ## Features
 - Create trips and add members
