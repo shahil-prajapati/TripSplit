@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TripSplit — Smart Trip Expense Manager</title>
+<!-- All styling lives in styles.css -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Decorative blurred background orbs (animated by CSS) -->
+<div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+
+<!-- Full-screen canvas used only for the confetti effect -->
+<canvas id="cf"></canvas>
+
+<div class="wrap">
+  <!-- Top header: logo, app name and the "New trip" button -->
+  <header class="top">
+    <div class="logo">✈️</div>
+    <div class="grow"><h1>Trip<span class="grad">Split</span></h1><div class="sub">Smart trip expense manager</div></div>
+    <button class="gh sm" data-a="newTrip">＋ New trip</button>
+  </header>
+
+  <!-- script.js draws every screen (Home, Trips, Alerts, Profile) into this element -->
+  <main id="app"></main>
+</div>
+
+<!-- Bottom navigation bar; script.js fills in the four tab buttons -->
+<nav class="bn" id="nav"></nav>
+
+<!-- script.js puts pop-up forms (modals) here -->
+<div id="layer"></div>
+
+<!-- Loaded at the end of <body> so the elements above already exist when the script runs -->
+<script src="script.js"></script>
+</body>
+</html>
